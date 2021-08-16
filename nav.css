@@ -1,0 +1,75 @@
+/*  */
+/* https://i.pinimg.com/originals/32/e0/c9/32e0c922f4dc2fd17e3fe35399e4d823.jpg */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Architects Daughter', cursive;
+    background-color: #ffffff;
+    ;
+    
+}
+
+.ab {
+    color: #a4af55;
+}
+.ef {
+  color: #73a7cc;
+}
+.cd {
+  color: #906244;
+}
+
+
+a>img {
+  padding: 0.4em;
+}
+.tt {
+  width: 280px;
+  filter: drop-shadow(0 0 3px #000);
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-20px);
+		-ms-transform:     translateY(-20px);
+		transform:         translateY(-20px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+a {  
+  
+  
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  color: white;
+}
+a:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+
+
